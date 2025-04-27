@@ -173,4 +173,6 @@ config CAN_DEBUG_DEVICES
 	  a problem with CAN support and want to see more of what is going
 	  on.
 
+source "drivers/net/can/usb-can-2-module/Kconfig"
+
 endmenu
